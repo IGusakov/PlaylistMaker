@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:paddingStart="@dimen/button_arrow_padding"
+            android:paddingTop="@dimen/button_arrow_padding"
+            android:src="@drawable/vector_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            android:paddingStart="64dp"
+            android:paddingTop="@dimen/top_padding" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/night_theme"
+            android:textColor="@color/black"
+            android:textSize="@dimen/menu_text_size"
+            android:layout_gravity="start"
+            android:paddingStart="@dimen/side_padding"
+            android:paddingVertical="@dimen/settings_box_padding"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingEnd="6dp"
+            android:paddingVertical="@dimen/settings_box_padding" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_share"
+            android:textColor="@color/black"
+            android:textSize="@dimen/menu_text_size"
+            android:layout_gravity="start"
+            android:paddingStart="@dimen/side_padding"
+            android:paddingVertical="@dimen/settings_box_padding"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingVertical="@dimen/settings_box_padding"
+            android:paddingEnd="@dimen/side_padding"
+            android:src="@drawable/vector_share" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/support"
+            android:textColor="@color/black"
+            android:textSize="@dimen/menu_text_size"
+            android:layout_gravity="start"
+            android:paddingStart="@dimen/side_padding"
+            android:paddingVertical="@dimen/settings_box_padding"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingVertical="@dimen/settings_box_padding"
+            android:paddingEnd="@dimen/side_padding"
+            android:src="@drawable/vector_support" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nobody_ever_read_this"
+            android:textColor="@color/black"
+            android:textSize="@dimen/menu_text_size"
+            android:layout_gravity="start"
+            android:paddingStart="@dimen/side_padding"
+            android:paddingVertical="@dimen/settings_box_padding"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingVertical="@dimen/settings_box_padding"
+            android:paddingEnd="@dimen/side_padding"
+            android:src="@drawable/vector_read" />
+    </FrameLayout>
+</LinearLayout>
